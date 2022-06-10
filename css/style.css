@@ -20,8 +20,32 @@ body {
 }
 
 .container {
+  align-items: center;
   background-color: var(--bg-purple);
-  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  position: relative;
+  width: 80vw;
+}
+
+.project {
+  background-color: white;
+  height: 18em;
+  width: 10em;
+}
+
+.project1 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.project3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .bg-black {
