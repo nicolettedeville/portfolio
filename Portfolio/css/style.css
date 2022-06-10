@@ -1,0 +1,33 @@
+:root {
+  --bg-black: rgb(0, 0, 0);
+  --bg-purple: rgb(80, 0, 80);
+}
+*{box-sizing: border-box;}
+
+body {
+  background-color: var(--bg-black);
+  height: 100vh;
+  margin: 0;
+  padding:0;
+}
+.panel {
+  align-items: center;
+  background-color: var(--bg-purple);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  background-color: var(--bg-purple);
+  height: 90vh;
+}
+
+.bg-black {
+  background-color: var(--bg-black);
+}
+
+.bg-purple {
+  background-color: var(--bg-purple);
+}
