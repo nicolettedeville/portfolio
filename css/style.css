@@ -40,10 +40,25 @@ body {
   text-shadow: 0 0 4px silver, 0 0 20px silver, 0 0 30px silver;
 }
 
+.project-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  position: relative;
+  width: 80vw;
+}
+
+.project > img {
+  height: 100%;
+  width: 100%;
+}
+
 .project {
   background-color: white;
   height: 18em;
-  width: 10em;
+  width: 12em;
 }
 
 .project1 {
