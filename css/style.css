@@ -12,7 +12,6 @@ body {
 }
 .panel {
   align-items: center;
-  background-color: var(--bg-purple);
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -21,13 +20,24 @@ body {
 
 .container {
   align-items: center;
-  background-color: var(--bg-purple);
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 50vh;
   justify-content: center;
   position: relative;
-  width: 80vw;
+  width: 50vw;
+}
+
+.container > img {
+  width: 100%;
+}
+
+.image-caption {
+  border-radius: .25rem;
+  color: var(--bg-purple);
+  font-size: 1.5em;
+  margin-top: 30px;
+  text-shadow: 0 0 4px silver, 0 0 20px silver, 0 0 30px silver;
 }
 
 .project {
